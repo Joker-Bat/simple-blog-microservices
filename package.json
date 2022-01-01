@@ -1,0 +1,12 @@
+{
+  "name": "simple-blog",
+  "version": "1.0.0",
+  "description": "A simple blog app to practice microservices with node and react",
+  "main": "index.js",
+  "scripts": {
+    "install-deps": "npm install --prefix comments && npm install --prefix event-bus && npm install --prefix moderation && npm install --prefix posts && npm install --prefix query",
+    "run-all": "npm start --prefix comments & npm start --prefix event-bus & npm start --prefix moderation & npm start --prefix posts & npm start --prefix query & npm start --prefix client"
+  },
+  "author": "Shanmugam M",
+  "license": "ISC"
+}
